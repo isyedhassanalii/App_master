@@ -8,15 +8,16 @@ using System.Threading.Tasks;
 
 namespace App_master.Data.Repository
 {
-    public class WhatsnewRepository : RepositoryBase<WhatsNew>, IWhatsNew
+    public class WhatsnewRepository : RepositoryBase<WhatsNew>, IWhatsNewRepository
     {
         public WhatsnewRepository(IDatabaseFactory databaseFactory)
             : base(databaseFactory)
         {
         }
 
+        
     }
-    public interface IWhatsNew : IRepository<WhatsNew>
+    public interface IWhatsNewRepository : IRepository<WhatsNew>
     {
 
     }

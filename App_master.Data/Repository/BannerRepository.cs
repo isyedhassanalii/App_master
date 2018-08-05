@@ -8,15 +8,16 @@ using System.Threading.Tasks;
 
 namespace App_master.Data.Repository
 {
-    public class BannerRepository : RepositoryBase<Banner>, IBanner
+    public class BannerRepository : RepositoryBase<Banner>, IBannerRepository
     {
         public BannerRepository(IDatabaseFactory databaseFactory)
             : base(databaseFactory)
         {
         }
 
+       
     }
-    public interface IBanner : IRepository<Banner>
+    public interface IBannerRepository : IRepository<Banner>
     {
 
     }

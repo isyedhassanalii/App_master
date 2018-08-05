@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_master.Data", "App_mast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_master.Model", "App_master.Model\App_master.Model.csproj", "{E6357203-BE03-41C8-9000-9AA3D398F3BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_master.Service", "App_master.Service\App_master.Service.csproj", "{EEE22F4F-9E20-4508-A18E-EFA1DE878ABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App_master.Web", "App_master.Web\App_master.Web.csproj", "{78D76643-AD47-4B16-A74D-2CEFC3C6C9BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{E6357203-BE03-41C8-9000-9AA3D398F3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6357203-BE03-41C8-9000-9AA3D398F3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6357203-BE03-41C8-9000-9AA3D398F3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE22F4F-9E20-4508-A18E-EFA1DE878ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE22F4F-9E20-4508-A18E-EFA1DE878ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE22F4F-9E20-4508-A18E-EFA1DE878ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE22F4F-9E20-4508-A18E-EFA1DE878ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D76643-AD47-4B16-A74D-2CEFC3C6C9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D76643-AD47-4B16-A74D-2CEFC3C6C9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D76643-AD47-4B16-A74D-2CEFC3C6C9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D76643-AD47-4B16-A74D-2CEFC3C6C9BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

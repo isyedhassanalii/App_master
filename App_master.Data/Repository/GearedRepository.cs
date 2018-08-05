@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace App_master.Data.Repository
 {
-    public class GearedRepository : RepositoryBase<Geared>, IGeared
+    public class GearedRepository : RepositoryBase<Geared>, IGearedRepository
     {
         public GearedRepository(IDatabaseFactory databaseFactory)
             : base(databaseFactory)
@@ -16,7 +16,7 @@ namespace App_master.Data.Repository
         }
 
     }
-    public interface IGeared : IRepository<Geared>
+    public interface IGearedRepository : IRepository<Geared>
     {
 
     }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace App_master.Data.Repository
 {
-    public class StructuredRepository : RepositoryBase<Structured>, IStructured
+    public class StructuredRepository : RepositoryBase<Structured>, IStructuredRepository
     {
         public StructuredRepository(IDatabaseFactory databaseFactory)
             : base(databaseFactory)
@@ -16,7 +16,7 @@ namespace App_master.Data.Repository
         }
 
     }
-    public interface IStructured : IRepository<Structured>
+    public interface IStructuredRepository : IRepository<Structured>
     {
 
     }
